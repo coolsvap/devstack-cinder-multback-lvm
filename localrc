@@ -1,0 +1,21 @@
+###IP Configuration
+HOST_IP=<<IP_ADDRESS>>
+
+#Credentials
+ADMIN_PASSWORD=<<password>>
+MYSQL_PASSWORD=<<password>
+RABBIT_PASSWORD=<<password>
+SERVICE_PASSWORD=<<password>
+SERVICE_TOKEN=<<password>
+
+####Tempest
+enable_service tempest
+
+##Enable Cinder Multiple Backends
+#CINDER_ENABLED_BACKENDS=lvm:lvmdriver-1,lvm:lvmdriver-2
+
+#Log Output
+LOGFILE=/opt/stack/logs/stack.sh.log
+VERBOSE=True
+LOG_COLOR=False
+SCREEN_LOGDIR=/opt/stack/logs
