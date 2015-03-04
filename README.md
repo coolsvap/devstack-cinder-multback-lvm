@@ -10,25 +10,25 @@ Prerequisites:
 
 Steps
 -----
-1. Clone devstack
+Clone devstack
 ```
 $git clone https://github.com/openstack-dev/devstack.git
 ```
 
-2. Clone devstack-cinder-multback-lvm
+Clone devstack-cinder-multback-lvm
 ```
 $git clone https://github.com/svashu/devstack-cinder-multback-lvm.git
 ```
 
-3. Copy localrc from devstack-cinder-multback-lvm to devstack
+Copy localrc from devstack-cinder-multback-lvm to devstack
 ```
 $ cp devstack-cinder-multback-lvm/localrc devstack
 
 ```
 
-4. Modify the devstack/localrc for IP and password modifications
+Modify the devstack/localrc for IP and password modifications
 
-5. Deploy your Devstack
+Deploy your Devstack
 
 ```
 $cd devstack && ./stack.sh
